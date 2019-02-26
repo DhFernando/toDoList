@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <link rel="stylesheet" href="jquery-ui.min.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+  <style>
+	  h1{
+		
+	  }
+	  #body{
+		  width: 490px;
+		  border:1px solid black;
+		 
+		
+	  }
+	  #delBtn{
+		color: white;
+		  margin-right: 20px;
+		  background: red;
+		border-radius: 5px;
+		  border:1px solid red;
+		  float:right;
+	  }
+	  #Sbtn{
+		  padding-top:3px;; 
+		height: 31px;
+		  color: white;
+		background: blue;
+		
+		  border:1px solid blue;
+	  
+	  }
+	  #Check{
+		  background: none;
+	  }
+	  #listDiv{
+		  margin-left: 40px;
+	  }
+	  h1{
+		  color: blueviolet;
+		  font-family: cursive;
+	  }
+	  #input{
+		  height: 25px;
+		  width: 220px;
+		  font-size:17px;
+		  font-family: monospace;
+	  }
+	  li{
+		  font-size:17px;
+		  font-family: monospace;
+		border-radius: 5px;
+		
+		  margin-right: 50px;
+		  margin-bottom: 5px;
+		border:1px solid lawngreen;
+		  padding-top: 10px;
+		  height: 30px;
+		  color: black;
+		  margin-left: -20px;
+	  }
+.done{
+	  
+	  opacity: 0.5;
+	  animation-name:anim ;
+	  animation-duration: 10s;
+	  text-decoration: line-through;
+	    }
+ 
+  </style>
+</head>
+<body>
+	<div id="body">
+		<center><h1 >toDoList</h1>
+		<input type="text" id="input" placeholder="Enter Your Task"><button id="Sbtn">Submit</button></center>
+		<div id="listDiv">
+			<ol id="olist">
+					<li id='Check'><input  type='checkbox' >hi<button id='delBtn'>Remove</button></li>
+				
+			</ol>
+		</div>
+	</div>
+	
+	<script src="tDO.js"></script>
+</body>
+</html>
